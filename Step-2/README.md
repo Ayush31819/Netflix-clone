@@ -90,6 +90,9 @@ sudo apt-get update
 sudo apt-get install trivy -y
 ```
 
+![image](https://github.com/user-attachments/assets/e92445e1-6c0a-402f-a7bb-ad16e21ec711)
+
+
 
 
 
