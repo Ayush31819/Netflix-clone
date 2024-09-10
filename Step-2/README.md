@@ -32,7 +32,7 @@ sudo chmod 777 jenkins.sh
 
 ![image](https://github.com/user-attachments/assets/1399abf6-8c1f-4998-a36c-a8566cb48f98)
 
-2) Now login into Jenkins site with <EC2 Public IP Address:8080>
+2) Now login into Jenkins site with EC2 Public IP Address:8080
 
 3) Extract passowrd for jenkins using below commands
 
