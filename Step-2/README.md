@@ -1,5 +1,7 @@
 ## Install Jenkins, Docker and Trivy on Jenkins EC2 Instance
 
+A) Install Jenkiks
+
 1) To install jenkins, follow below steps.
 
 ```sh
@@ -32,7 +34,7 @@ sudo chmod 777 jenkins.sh
 
 ![image](https://github.com/user-attachments/assets/1399abf6-8c1f-4998-a36c-a8566cb48f98)
 
-2) Now login into Jenkins site with EC2 Public IP Address:8080
+2) Now login into Jenkins site with "EC2 Public IP Address:8080"
 
 3) Extract passowrd for jenkins using below commands
 
@@ -41,4 +43,19 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 ![image](https://github.com/user-attachments/assets/5ce27fba-3230-459f-9dcc-b065f64c846f)
+
+4) Unlock Jenkins using an administrative password and install the suggested plugins.
+
+![image](https://github.com/user-attachments/assets/ae9cc14c-324e-411d-a3f9-cc2ba8ef016a)
+
+5) Jenkins Getting Started Screen
+
+![image](https://github.com/user-attachments/assets/89b6f1b5-f74f-4711-83ad-97e568a96856)
+
+
+
+
+
+
+
 
