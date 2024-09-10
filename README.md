@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
+  <a href="![image](https://github.com/user-attachments/assets/3de504b8-44f5-4cc3-a7c9-385c5c1398f6)">
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
   </a>
 
