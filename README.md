@@ -3,7 +3,7 @@
 </div>
 
 <p align="center" width="100%">
-    <img width="33%" src="![intelligence](https://github.com/user-attachments/assets/e3135ed1-29de-4f30-8294-eb1c1b742bdc)">
+    <img width="33%" src="![image](https://github.com/user-attachments/assets/5c797482-20e7-405a-9b23-36476528d479)">
 </p>
 
   <h3 align="center">Netflix Clone</h3>
