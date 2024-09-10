@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/545b97ae-1c36-47bd-90ce-19765589e7da)
+<div align="center">
+    <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
+  </a>
 
   <h3 align="center">Netflix Clone</h3>
 
