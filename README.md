@@ -38,6 +38,12 @@ Step 12 — Kubernetes master and slave setup on Ubuntu (20.04)
 
 Step 13 — Access the Netflix app on the Browser.
 
+## Reference
 
+You can refer to below link for all the code and steps to follow. I've also mentioned the GitHub repo which you can fork to your account.
+
+https://mrcloudbook.com/netflix-clone-ci-cd-with-monitoring-email-devsecops/
+
+https://github.com/Aj7Ay/Netflix-clone
 
 
