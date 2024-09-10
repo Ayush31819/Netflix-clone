@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="![image](https://github.com/user-attachments/assets/3de504b8-44f5-4cc3-a7c9-385c5c1398f6)">
-    <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
+  ![image](https://github.com/user-attachments/assets/615c2e19-b238-4757-a5aa-336b19062a13)
+
   </a>
 
   <h3 align="center">Netflix Clone</h3>
