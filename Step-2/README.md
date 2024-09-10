@@ -5,6 +5,8 @@
 ```sh
 vi jenkins.sh #make sure run in Root (or) add at userdata while ec2 launch
 
+#inside jenkins.sh file
+{
 #!/bin/bash
 sudo apt update -y
 #sudo apt upgrade -y
@@ -22,4 +24,21 @@ sudo apt-get update -y
 sudo apt-get install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
+}
+
+sudo chmod 777 jenkins.sh
+./jenkins.sh    # this will installl jenkins
 ```
+
+![image](https://github.com/user-attachments/assets/1399abf6-8c1f-4998-a36c-a8566cb48f98)
+
+2) Now login into Jenkins site with <EC2 Public IP Address:8080>
+
+3) Extract passowrd for jenkins using below commands
+
+```sh
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+![image](https://github.com/user-attachments/assets/5ce27fba-3230-459f-9dcc-b065f64c846f)
+
