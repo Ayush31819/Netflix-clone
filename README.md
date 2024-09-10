@@ -1,7 +1,4 @@
-<div align="center">
-  ![image](https://github.com/user-attachments/assets/615c2e19-b238-4757-a5aa-336b19062a13)
-
-  </a>
+![image](https://github.com/user-attachments/assets/545b97ae-1c36-47bd-90ce-19765589e7da)
 
   <h3 align="center">Netflix Clone</h3>
 
