@@ -1,6 +1,6 @@
 ## Install Jenkins, Docker and Trivy on Jenkins EC2 Instance
 
-A) Install Jenkiks
+### Install Jenkiks
 
 1) To install jenkins, follow below steps.
 
@@ -52,6 +52,33 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ![image](https://github.com/user-attachments/assets/89b6f1b5-f74f-4711-83ad-97e568a96856)
 
+B) Insstall Docker
+
+1) Install Docker using below commands
+
+```sh
+sudo apt-get update
+sudo apt-get install docker.io -y
+sudo usermod -aG docker ubuntu   #my case is ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+```
+
+![image](https://github.com/user-attachments/assets/3e32e861-8f0a-4580-9b04-8f251197719f)
+
+2) After the docker installation, we create a sonarqube container (Remember to add 9000 ports in the security group).
+
+```sh
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+```
+
+![image](https://github.com/user-attachments/assets/6a3efb4a-4b50-41e2-84a0-561805ec22e7)
+
+3) Login into sonarqube at port 9000
+
+![image](https://github.com/user-attachments/assets/12b346ce-2edf-48f8-95ac-d748bff13bcc)
+
+C) Install Trivy
 
 
 
